@@ -7,6 +7,8 @@ namespace CI_Test
 {
     public class Calculator
     {
+        public bool change = true;
+
         public int Add(int x, int y) 
         {
             return x + y;

@@ -34,7 +34,7 @@ namespace UnitTestProject1
 
             int z = calc.Multiply(x, y);
 
-            Assert.AreEqual(x + y, z);
+            Assert.AreEqual(x * y, z);
         }
     }
 }

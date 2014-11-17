@@ -16,5 +16,10 @@ namespace CI_Test
         {
             return x * y;
         }
+
+        public int difference(int x, int y)
+        {
+            return Math.Abs(x - y);
+        }
     }
 }

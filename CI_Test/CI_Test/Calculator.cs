@@ -21,5 +21,10 @@ namespace CI_Test
         {
             return Math.Abs(x - y);
         }
+
+        public bool AreEqual(int x, int y) 
+        {
+            return x == y;
+        }
     }
 }
